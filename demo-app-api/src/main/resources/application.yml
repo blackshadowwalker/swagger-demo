@@ -1,0 +1,36 @@
+
+env-name: ${package.environment}
+
+app:
+  name: @project.artifactId@
+  version: ${project.version}
+  buildTime: ${buildTimestamp}
+
+spring:
+  application:
+    name: @project.artifactId@
+  jmx:
+    enabled: false
+  profiles:
+    active: ${package.environment}
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+server:
+  port: 8085
+  tomcat:
+    max-threads: 200
+  jmx:
+    enabled: true
+  session:
+    timeout: 300
+
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs
+

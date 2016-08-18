@@ -1,0 +1,52 @@
+# http://docs.gitlab.com/ce/ci/yaml/README.html#gitlab-ci-yml
+
+before_script:
+  - uname -a
+  - pwd
+  - env
+  - locale
+  - date
+
+stages:
+  - test
+  - sync
+  - install
+  - deploy
+  - cleanup
+
+job-test:
+  stage: test
+  script:
+    - mvn clean test -pl demo-bean,demo-service -P dev
+  # Define when to run build. Can be on_success, on_failure or always
+  when: always
+  except:
+    - master
+  tags:
+
+sync-youjie:
+  stage: sync
+  script:
+    - echo ${CI_BUILD_REF_NAME}
+    - sh bin/gitlab.youjie.com.sh
+  except:
+    - api
+    - demo
+    - deploy
+  when: on_success
+  dependencies:
+    - job-test
+
+job-install:
+  stage: install
+  script:
+    - mvn clean install deploy -P dev -Dmaven.test.skip=true
+  when: on_success
+  dependencies:
+    - job-test
+
+cleanup_job:
+  stage: cleanup
+  script:
+    - mvn clean
+  when: on_success
