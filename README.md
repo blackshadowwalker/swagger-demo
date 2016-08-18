@@ -11,10 +11,10 @@
 
 **Branch:**
 
-* [![Build](http://gitlab.mljr.com/mljr/hr/badges/master/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/master) -  master
-* [![Build](http://gitlab.mljr.com/mljr/hr/badges/develop/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/develop) -  develop
-* [![Build](http://gitlab.mljr.com/mljr/hr/badges/spring-boot/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/spring-boot) - spring-boot
-* [![Build](http://gitlab.mljr.com/mljr/hr/badges/spring-boot-war/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/spring-boot-war) -  spring-boot-war
+* [![Build](http://gitlab.mljr.com/mljr/swagger-demo/badges/master/build.svg)](http://gitlab.mljr.com/mljr/swagger-demo/commits/master) -  master
+* [![Build](http://gitlab.mljr.com/mljr/swagger-demo/badges/develop/build.svg)](http://gitlab.mljr.com/mljr/swagger-demo/commits/master) -  develop
+* [![Build](http://gitlab.mljr.com/mljr/swagger-demo/badges/spring-boot/build.svg)](http://gitlab.mljr.com/mljr/swagger-demo/commits/spring-boot) - spring-boot
+* [![Build](http://gitlab.mljr.com/mljr/swagger-demo/badges/spring-boot-war/build.svg)](http://gitlab.mljr.com/mljr/swagger-demo/commits/spring-boot-war) -  spring-boot-war
 
 
 **Author:**
