@@ -13,8 +13,8 @@
 
 * [![Build](http://gitlab.mljr.com/mljr/hr/badges/master/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/master) -  master
 * [![Build](http://gitlab.mljr.com/mljr/hr/badges/develop/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/develop) -  develop
-* [![Build](http://gitlab.mljr.com/mljr/hr/badges/spring-boot/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/springboot) - spring-boot
-* [![Build](http://gitlab.mljr.com/mljr/hr/badges/spring-boot-war/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/springboot-war) -  spring-boot-war
+* [![Build](http://gitlab.mljr.com/mljr/hr/badges/spring-boot/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/spring-boot) - spring-boot
+* [![Build](http://gitlab.mljr.com/mljr/hr/badges/spring-boot-war/build.svg)](http://gitlab.mljr.com/mljr/hr/commits/spring-boot-war) -  spring-boot-war
 
 
 **Author:**
