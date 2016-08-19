@@ -1,13 +1,13 @@
 # Swagger Demo
 
- ![Version](https://img.shields.io/badge/Version-0.0.6-blue.svg)
+ ![Version](https://img.shields.io/badge/Version-1.0_SNAPSHOT-blue.svg)
 
  ![jdk    ](https://img.shields.io/badge/Jdk-1.7+-blue.svg)
  ![Logger ](https://img.shields.io/badge/Logger-logback-green.svg)
 
  ![Spring ](https://img.shields.io/badge/Spring-4.2.5.RELEASE-blue.svg)
  ![SpringBoot ](https://img.shields.io/badge/SpringBoot-1.3.5.RELEASE-blue.svg)
- ![Springfox](https://img.shields.io/badge/Springfox-1.3.5.RELEASE-blue.svg)
+ ![Springfox](https://img.shields.io/badge/Springfox-2.5.0-blue.svg)
 
 **Branch:**
 
@@ -19,8 +19,7 @@
 
 **Author:**
 
- * NAME: LI JIAN
- * EMAIL: jian.li02@mljr.com
+ [ ](http://blog.csdn.net/lanmo555)
 
 ## 使用说明
 
