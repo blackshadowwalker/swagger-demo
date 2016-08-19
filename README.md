@@ -35,17 +35,17 @@
    ![img](doc/images/2.png)
 
 ### 3. Json 提交数据, 使用对象接受数据
-
+   
    ![img](doc/images/3.png)
-
+   
    提交结果
-
+   
    ![img](doc/images/4.png)
 
 ### 4. 修改数据，使用 `@RequestParam`
 
-   ![img](doc/images/5.png)
-
+   ![img](doc/images/5.png)  
+   
    ![img](doc/images/6.png)
 
 ### 5. 基于 Restful 规范的GET请求
@@ -54,29 +54,32 @@
 
 ### 6. 上传文件
 
-   ![img](doc/images/8.png)
-
-   ![img](doc/images/9.png)
+   ![img](doc/images/8.png)  
+   
+   ![img](doc/images/9.png)  
 
 ## 其他
 
-* `springboot` 分支是直接jar运行
-* `springboot-war` 是在springboot的基础上使用外置 tomcat 容器加载服务
+* `spring-boot` 分支是直接jar运行
+* `spring-boot-war` 是在springboot的基础上使用外置 tomcat 容器加载服务
 * springmvc 项目请参考 springboot 项目进行修改，注意swagger的扫描，如:
    spring-mvc.xml
-   ```xml
-   <context:annotation-config />
-   <mvc:default-servlet-handler/>
-   <mvc:annotation-driven />
-   <beans profile="dev">
-      <context:component-scan base-package="springfox.documentation"/>
-   </beans>
-   ```
-   springmvc控制变量`spring.profiles.active` 的值是通过web.xml中配置
-   ```xml
-   <context-param>
-       <param-name>spring.profiles.active</param-name>
-       <param-value>dev</param-value>
-   </context-param>
-   ```
+
+    ```xml
+    <context:annotation-config />
+       <mvc:default-servlet-handler/>
+       <mvc:annotation-driven />
+       <beans profile="dev">
+          <context:component-scan base-package="springfox.documentation"/>
+    </beans>
+    ```
+   
+     springmvc控制变量`spring.profiles.active` 的值是通过web.xml中配置
+
+    ```xml
+    <context-param>
+      <param-name>spring.profiles.active</param-name>
+      <param-value>dev</param-value>
+    </context-param>
+    ```
 
